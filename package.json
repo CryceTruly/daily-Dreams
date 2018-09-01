@@ -1,0 +1,30 @@
+{
+  "name": "dailydrems",
+  "version": "1.0.0",
+  "description": "An application to keep track of someones  ideas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ideas",
+    "Thoughts",
+    "fullstack"
+  ],
+  "dependencies": {
+    "express": "4.16.2",
+    "mongoose": "4.13.6",
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.4",
+    "jsonwebtoken": "8.1.0",
+    "body-parser": "1.18.2",
+    "passport": "0.4.0",
+    "passport-jwt": "3.0.1"
+  },
+  "author": "Cryce Truly",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
